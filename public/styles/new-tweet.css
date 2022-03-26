@@ -11,7 +11,6 @@
   justify-content: space-between;
   padding-top: 1%;;
 }
-
 .submit-tweet > button {
   background-color: #4056A1;
   color: #FFFFFF;
@@ -19,6 +18,10 @@
 }
 .submit-tweet > output {
   font-family: 'bungee', sans-serif;
+}
+
+.red-counter {
+  color: red;
 }
 
 #tweet-text {  
