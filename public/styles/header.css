@@ -7,3 +7,10 @@ header {
   background-color: #e6f1f7;
   background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
 }
+
+header > div > img {
+  position: relative;
+  top: 41%;
+  height: 80%; 
+  padding-bottom: 50px;
+}
