@@ -1,0 +1,69 @@
+
+.tweet  {
+  padding-top: 8%;
+}
+
+article {
+   border: 5px solid #545149;
+   padding: 1%;  
+}
+
+/* Article Header */
+
+article header {
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f4f1ec;
+  background-image: none;
+  height: auto;
+  padding: 0 1% 0 1%;
+}
+article header img { 
+  border-radius: 50%;
+  padding-bottom: 0%;
+  max-width: 70px;
+  max-height: 70px;
+  margin-right: 15%;
+}
+article > header > p {
+  font-weight: bold;
+  color: lightgray;  
+}
+
+article div {
+  display: flex;  
+  align-items: center;  
+}
+
+/* Main Tweet */
+article > p {
+  font-size: xx-large;
+  font-weight: 500;
+  padding: 0 1% 2% 1%;;
+}
+
+/* Footer */
+
+article footer {
+display: flex;
+justify-content: space-between;
+border-top: 5px solid #545149;
+font-size: medium;
+padding: 0 1% 0 1%;
+}
+
+article > footer i{
+  padding-right: 10px;  
+  color: #4056A1;  
+}
+
+/* Pseudo CSS*/
+
+article:hover {
+  box-shadow: 10px 10px #bec7e5;
+}
+
+article > footer i:hover {
+  color: #FFB144;
+}
