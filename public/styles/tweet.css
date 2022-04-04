@@ -42,6 +42,7 @@ article > p {
   font-size: xx-large;
   font-weight: 500;
   padding: 0 1% 2% 1%;;
+  overflow-wrap: break-word;
 }
 
 /* Footer */
