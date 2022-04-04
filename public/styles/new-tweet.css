@@ -24,6 +24,13 @@
   color: red;
 }
 
+#error {
+  margin-top: 1%;
+border: 5px solid red;
+padding-left: 2%;
+display: none;
+}
+
 #tweet-text {  
   border: none;
   outline: none;
